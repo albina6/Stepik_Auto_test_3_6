@@ -10,7 +10,8 @@ class TestProduct():
     
     def test_button_submit(self, browser):
         browser.get(link)
-        time.sleep(30)
+        time.sleep(5)
+        # time.sleep(30)
         # submit = browser.find_element(By.CSS_SELECTOR, ".product_page button[type='submit']")
         try:
             browser.find_element(By.CSS_SELECTOR, ".product_page button[type='submit']")
